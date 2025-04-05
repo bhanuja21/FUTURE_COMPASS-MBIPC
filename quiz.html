@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Assessment Quiz - Future Compass</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="quiz-header">
+            <h1>Career Assessment Quiz</h1>
+            <p class="progress-text">Question <span id="current-question">1</span> of `15</p>
+            <div class="progress-bar">
+                <div class="progress-fill" id="quiz-progress"></div>
+            </div>
+            <p class="quiz-description">Answer honestly to get the most accurate career recommendations.</p>
+        </header>
+
+        <main>
+            <form id="quiz-form">
+                <div id="question-container" class="question-card"></div>
+                
+                <div class="quiz-navigation">
+                    </button>
+                    </button>
+                    <button type="submit" id="submit-btn" class="submit-button">
+                        Get My Career Paths
+                    </button>
+                </div>
+            </form>
+        </main>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
